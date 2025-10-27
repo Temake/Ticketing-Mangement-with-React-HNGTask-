@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect} from 'react';
 import type { ReactNode } from 'react';
-import type { AuthState, User, LoginCredentials, SignupCredentials } from '../types';
+import type { AuthState, LoginCredentials, SignupCredentials } from '../types';
 import { storage } from '../utils/storage';
 import { mockLogin, mockSignup, mockLogout, validateSession } from '../utils/mockAuth';
 
